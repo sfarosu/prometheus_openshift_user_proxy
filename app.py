@@ -72,7 +72,7 @@ if __name__ == "__main__":
     scheme = os.environ.get('PROMETHEUS_UPSTREAM_SCHEME', 'http')
     prometheus_jobs = os.environ.get('PROMETHEUS_JOBS', 'kubernetes-cadvisor').split(' ')
     
-    debug = True
+    debug = False
     if 'DEBUG' in os.environ and os.environ['DEBUG'] in ('True', '1'):
         debug = True
 
