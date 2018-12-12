@@ -1,2 +1,2 @@
-openshift==0.4.4
+openshift==0.3.4
 prometheus-client==0.0.21
