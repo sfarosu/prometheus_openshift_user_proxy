@@ -55,7 +55,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(response_code)
         self.send_header('Content-Type', 'text/plain; version=0.0.4')
         self.end_headers()
-        self.wfile.write(body.encode())
+        self.wfile.write(body.decode('utf-8').encode('utf-8'))
         if debug: print("End request")
 
 class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
