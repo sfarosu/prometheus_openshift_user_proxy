@@ -11,7 +11,7 @@ kubernetes==3.0.0
 MarkupSafe==1.1.1
 openshift==0.3.4
 prometheus-client==0.0.21
-pyasn1==0.4.5
+pyasn1==0.6.3
 pyasn1-modules==0.2.5
 python-dateutil==2.8.0
 python-string-utils==0.6.0
